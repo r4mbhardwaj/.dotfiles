@@ -1,0 +1,17 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+//@theme "gruvbox-light"
+ 
+/* Insert theme modifications after this */
+
+
+element {
+  orientation: horizontal;
+  children: [ element-text, element-icon ];
+  spacing: 5px;
+}
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
