@@ -17,13 +17,13 @@
 ;==========================================================
 
 [colors]
-background = #090909
-background-alt = #6C5453
-foreground = #e1caca
-primary = #756767
-secondary = #8E6F6E
-alert = #9d8d8d
-disabled = #9d8d8d
+background = #0C0D0E
+background-alt = #50565B
+foreground = #b5cdd8
+primary = #445B66
+secondary = #4D6774
+alert = #7e8f97
+disabled = #7e8f97
 
 [bar/example]
 width = 100%
@@ -51,7 +51,7 @@ separator-foreground = ${colors.disabled}
 font-0 = monospace;2
 
 modules-left = xworkspaces xwindow
-modules-right = filesystem pulseaudio xkeyboard memory cpu wlan eth date
+modules-right = filesystem pulseaudio xkeyboard memory cpu wlan eth date systray
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -68,7 +68,7 @@ enable-ipc = true
 type = internal/tray
 
 format-margin = 8pt
-tray-spacing = 16pt
+tray-spacing = 8pt
 
 [module/xworkspaces]
 type = internal/xworkspaces
