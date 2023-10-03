@@ -17,13 +17,13 @@
 ;==========================================================
 
 [colors]
-background = #0C0D0E
-background-alt = #50565B
-foreground = #b5cdd8
-primary = #445B66
-secondary = #4D6774
-alert = #7e8f97
-disabled = #7e8f97
+background = #090909
+background-alt = #6C5453
+foreground = #e1caca
+primary = #756767
+secondary = #8E6F6E
+alert = #9d8d8d
+disabled = #9d8d8d
 
 [bar/example]
 width = 100%
@@ -48,9 +48,10 @@ module-margin = 1
 separator = |
 separator-foreground = ${colors.disabled}
 
-font-0 = monospace;2
+# font-0 = monospace;2
+font-0 = "JetBrains Mono Nerd Font:size=12;0"
 
-modules-left = xworkspaces xwindow
+modules-left = xworkspaces xwindow 
 modules-right = filesystem pulseaudio xkeyboard memory cpu wlan eth date systray
 
 cursor-click = pointer
@@ -67,13 +68,14 @@ enable-ipc = true
 [module/systray]
 type = internal/tray
 
-format-margin = 8pt
+format-margin = 2pt
 tray-spacing = 8pt
 
 [module/xworkspaces]
 type = internal/xworkspaces
 
-label-active = %name%
+label-active = %{T2}%{T-} %name%
+
 label-active-background = ${colors.background-alt}
 label-active-underline= ${colors.primary}
 label-active-padding = 1
@@ -107,21 +109,25 @@ label-unmounted-foreground = ${colors.disabled}
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume-prefix = "VOL "
+format-volume-prefix = ""
 format-volume-prefix-foreground = ${colors.primary}
 format-volume = <label-volume>
 
-label-volume = %percentage%%
+# label-volume = %percentage%%
 
-label-muted = muted
+# label-muted = muted
+label-volume =  %percentage%%
+label-muted =  
+
+
 label-muted-foreground = ${colors.disabled}
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-label-layout = %layout%
-label-layout-foreground = ${colors.primary}
+label-layout = %{T2}%{T-} %layout%
+label-layout-foreground = ${colors.background-alt}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
@@ -152,12 +158,12 @@ label-disconnected = %{F#F0C674}%ifname%%{F#707880} disconnected
 [module/wlan]
 inherit = network-base
 interface-type = wireless
-label-connected = %{F#F0C674}%ifname%%{F-} %essid% %local_ip%
+label-connected =  %{T2}%{T-} %essid% %local_ip%
 
 [module/eth]
 inherit = network-base
 interface-type = wired
-label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
+label-connected =  %{T2}%{T-}%local_ip%
 
 [module/date]
 type = internal/date
@@ -166,7 +172,7 @@ interval = 1
 date = %H:%M
 date-alt = %Y-%m-%d %H:%M:%S
 
-label = %date%
+label = %{T2}%{T-} %date%
 label-foreground = ${colors.primary}
 
 

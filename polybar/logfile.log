@@ -1,11 +1,10 @@
-hello #0d0908 #E23944 #955951 #AE4C4B #C9464A #6D8F75 #918B70 #aed6c6
-polybar-msg: No active ipc channels
-Removed stale ipc channel: /run/user/1000/polybar/ipc.31770.sock
+hello #0D0E2C #A48B68 #385582 #647087 #7C8292 #9F9B9E #C8B8AD #ebdfd3
+Successfully wrote command 'quit' to PID 31347
 ---
 Bars launched...
 polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
 polybar|notice:  Parsing config file: /home/ram/.config/polybar/config
-polybar|notice:  Listening for IPC messages (PID: 32210)
+polybar|notice:  Listening for IPC messages (PID: 31424)
 polybar|warn:  No monitor specified, using "DP-0"
 polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
 polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
@@ -22,30 +21,30 @@ polybar|notice:  module/eth: Discovered wired interface enp4s0
 polybar|notice:  Loading module 'date' of type 'internal/date'
 polybar|notice:  Loading module 'systray' of type 'internal/tray'
 polybar|notice:  Loaded 11 modules
-polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
+polybar|notice:  Loaded font "JetBrains Mono Nerd Font:size=12" (name=JetBrainsMono Nerd Font, offset=0, file=/home/ram/.local/share/fonts/JetBrainsMonoNerdFont-Regular.ttf)
 [[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
 [[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
 [[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
 [[1;32mI[0m] [1;31mexport[0m: Exported all files.
 [[1;32mI[0m] [1;31mexport[0m: Exported all user files.
 [[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
-/home/ram/.config/polybar/update_polybar_color.sh: line 18: #0C0D0E: command not found
+/home/ram/.config/polybar/update_polybar_color.sh: line 18: #090909: command not found
 [colors]
-background = #0C0D0E
-background-alt = #50565B
-foreground = #b5cdd8
-primary = #445B66
-secondary = #4D6774
-alert = #7e8f97
-disabled = #7e8f97
+background = #090909
+background-alt = #6C5453
+foreground = #e1caca
+primary = #756767
+secondary = #8E6F6E
+alert = #9d8d8d
+disabled = #9d8d8d
 
 polybar|notice:  Received signal(10): User defined signal 1
 polybar|notice:  Termination signal received, shutting down...
-/home/ram/.config/polybar/launch.sh: line 26: 32220 User defined signal 1   $HOME/.config/polybar/update_polybar_color.sh
-There was an error while reading polybar's response: connection reset by peer (PID: 32210)
+/home/ram/.config/polybar/launch.sh: line 26: 31434 User defined signal 1   $HOME/.config/polybar/update_polybar_color.sh
+There was an error while reading polybar's response: connection reset by peer (PID: 31424)
 polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
 polybar|notice:  Parsing config file: /home/ram/.config/polybar/config
-polybar|notice:  Listening for IPC messages (PID: 32210)
+polybar|notice:  Listening for IPC messages (PID: 31424)
 polybar|warn:  No monitor specified, using "DP-0"
 polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
 polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
@@ -62,7 +61,4 @@ polybar|notice:  module/eth: Discovered wired interface enp4s0
 polybar|notice:  Loading module 'date' of type 'internal/date'
 polybar|notice:  Loading module 'systray' of type 'internal/tray'
 polybar|notice:  Loaded 11 modules
-polybar|notice:  Loaded font "monospace" (name=DejaVu Sans Mono, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf)
-polybar|error: Failed to reconfigure client(0x2e00003, caffeine-indicator), removing... (XCB_WINDOW (3))
-polybar|error: tray: Failed to unembed window '' (0x2e00003)
-polybar|error: tray: Failed to setup tray client '' (0x2e00007) removing... (XCB_DRAWABLE (9))
+polybar|notice:  Loaded font "JetBrains Mono Nerd Font:size=12" (name=JetBrainsMono Nerd Font, offset=0, file=/home/ram/.local/share/fonts/JetBrainsMonoNerdFont-Regular.ttf)

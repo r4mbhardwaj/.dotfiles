@@ -185,6 +185,8 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
+exec --no-startup-id dunst
+
 bindsym $mod+shift+x exec i3lock
 bindsym $mod+p exec rofi -show run
 
