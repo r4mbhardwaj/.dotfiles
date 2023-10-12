@@ -17,13 +17,13 @@
 ;==========================================================
 
 [colors]
-background = #090909
-background-alt = #6C5453
-foreground = #e1caca
-primary = #756767
-secondary = #8E6F6E
-alert = #9d8d8d
-disabled = #9d8d8d
+background = #09080c
+background-alt = #9C645E
+foreground = #ddc9da
+primary = #DA8D74
+secondary = #564DB0
+alert = #9a8c98
+disabled = #9a8c98
 
 [bar/example]
 width = 100%
