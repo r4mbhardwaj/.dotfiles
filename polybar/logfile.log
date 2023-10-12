@@ -1,10 +1,10 @@
-hello #0D0E2C #A48B68 #385582 #647087 #7C8292 #9F9B9E #C8B8AD #ebdfd3
-Successfully wrote command 'quit' to PID 31347
+hello #0D1A2E #3A5F87 #5D708F #8C7584 #6F8BA7 #7299CB #9A98A9 #cad2de
+Successfully wrote command 'quit' to PID 9601
 ---
 Bars launched...
 polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
 polybar|notice:  Parsing config file: /home/ram/.config/polybar/config
-polybar|notice:  Listening for IPC messages (PID: 31424)
+polybar|notice:  Listening for IPC messages (PID: 9729)
 polybar|warn:  No monitor specified, using "DP-0"
 polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
 polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
@@ -28,23 +28,23 @@ polybar|notice:  Loaded font "JetBrains Mono Nerd Font:size=12" (name=JetBrainsM
 [[1;32mI[0m] [1;31mexport[0m: Exported all files.
 [[1;32mI[0m] [1;31mexport[0m: Exported all user files.
 [[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
-/home/ram/.config/polybar/update_polybar_color.sh: line 18: #090909: command not found
+/home/ram/.config/polybar/update_polybar_color.sh: line 18: #09080c: command not found
 [colors]
-background = #090909
-background-alt = #6C5453
-foreground = #e1caca
-primary = #756767
-secondary = #8E6F6E
-alert = #9d8d8d
-disabled = #9d8d8d
+background = #09080c
+background-alt = #9C645E
+foreground = #ddc9da
+primary = #DA8D74
+secondary = #564DB0
+alert = #9a8c98
+disabled = #9a8c98
 
 polybar|notice:  Received signal(10): User defined signal 1
 polybar|notice:  Termination signal received, shutting down...
-/home/ram/.config/polybar/launch.sh: line 26: 31434 User defined signal 1   $HOME/.config/polybar/update_polybar_color.sh
-There was an error while reading polybar's response: connection reset by peer (PID: 31424)
+/home/ram/.config/polybar/launch.sh: line 26:  9755 User defined signal 1   $HOME/.config/polybar/update_polybar_color.sh
+There was an error while reading polybar's response: connection reset by peer (PID: 9729)
 polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
 polybar|notice:  Parsing config file: /home/ram/.config/polybar/config
-polybar|notice:  Listening for IPC messages (PID: 31424)
+polybar|notice:  Listening for IPC messages (PID: 9729)
 polybar|warn:  No monitor specified, using "DP-0"
 polybar|notice:  Loading module 'xworkspaces' of type 'internal/xworkspaces'
 polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
@@ -62,3 +62,4 @@ polybar|notice:  Loading module 'date' of type 'internal/date'
 polybar|notice:  Loading module 'systray' of type 'internal/tray'
 polybar|notice:  Loaded 11 modules
 polybar|notice:  Loaded font "JetBrains Mono Nerd Font:size=12" (name=JetBrainsMono Nerd Font, offset=0, file=/home/ram/.local/share/fonts/JetBrainsMonoNerdFont-Regular.ttf)
+polybar|notice:  Termination signal received, shutting down...
