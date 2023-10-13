@@ -208,7 +208,8 @@ exec --no-startup-id wal -R
 exec_always  --no-startup-id wal -i /home/ram/Pictures/wallpapers/
 
 
-exec_always --no-startup-id picom -b --experimental-backends --blur-method dual_kawase
+# exec_always --no-startup-id picom -b --experimental-backends --blur-method dual_kawase
+exec_always --no-startup-id picom -b --experimental-backends 
 
 # exec_always --no-startup-id $HOME/.config/polybar/update_polybar_color.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
