@@ -1,2 +1,10 @@
+*
 polybar/logfile.log
 rofi/images/
+!polybar/
+!rofi/
+!ranger/
+!i3/
+!dunst/
+!picom.conf
+polybar/config
