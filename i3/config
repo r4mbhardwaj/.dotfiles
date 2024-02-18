@@ -216,6 +216,9 @@ exec_always --no-startup-id picom -b --experimental-backends
 # exec_always --no-startup-id $HOME/.config/polybar/update_polybar_color.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+# apply system settings from default gnome
+exec --no-startup-id /usr/lib/gsd-xsettings
+
 # i3-gaps
 gaps inner 13
 gaps outer 5
